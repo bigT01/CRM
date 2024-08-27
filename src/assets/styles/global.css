@@ -3,4 +3,42 @@
   font-family: "Lato";
 }
 
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
+button .size-m {
+  font-size: 14px;
+  font-weight: bold;
+}
+button .size-s {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+p .size-m-l, span .size-m-l {
+  font-size: 14px;
+  font-weight: 300;
+}
+p .size-m-r, span .size-m-r {
+  font-size: 14px;
+  font-weight: normal;
+}
+p .size-m-b, span .size-m-b {
+  font-size: 14px;
+  font-weight: bold;
+}
+p .size-s-l, span .size-s-l {
+  font-size: 12px;
+  font-weight: 300;
+}
+p .size-s-r, span .size-s-r {
+  font-size: 12px;
+  font-weight: normal;
+}
+p .size-s-b, span .size-s-b {
+  font-size: 12px;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=global.css.map */

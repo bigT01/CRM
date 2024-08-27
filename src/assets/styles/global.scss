@@ -3,3 +3,49 @@
 *{
   font-family: "Lato";
 }
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
+button{
+  .size-m{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .size-s{
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+p, span {
+  .size-m{
+    &-l{
+      font-size: 14px;
+      font-weight: 300;
+    }
+    &-r{
+      font-size: 14px;
+      font-weight: normal;
+    }
+    &-b{
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  .size-s{
+    &-l{
+      font-size: 12px;
+      font-weight: 300;
+    }
+    &-r{
+      font-size: 12px;
+      font-weight: normal;
+    }
+    &-b{
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+}
